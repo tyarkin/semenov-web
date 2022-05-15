@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Иван Яковлевич Яковлев</title>
+	<meta name="desciption" content="земляки" />
+	<meta name="keywords" content="земляки" />
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="#">Земляк</a></h1>
+					<h2 align="center" style="font-size: 1.7em;">Иван Яковлевич Яковлев</h2>
+				</div>
+			</div>
+			<div class="manubar">
+				<ul class="manu">
+					<li class="selected"><a href="index.html">информация</a></li>
+					<li><a href="#">чем знаменит</a></li>
+					<li><a href="награды.html">награды</a></li>
+					<br>
+					<br>
+				</ul>
+			</div>
+		</div>
+		<div class="site_content">
+			<div class="sitebar">
+				<div class="sidebar" title="введите запрос или нажмите на ссылку">
+					<h2>Поиск</h2>
+					<form method="post" action="#" id="search">
+						<input type="search" class="poisk" name="search_field" placeholder="запросите" id="q" />
+						<input type="button" class="btn" value="искать" onclick="h();" />
+						результат: <a href="#" id="a">нет текста</a>
+						<br>
+						<h3 id="вар">варианты (самые простые)</h3>
+						<br>
+						<a onclick="b=this.innerHTML; q();">информация</a>, 
+						<a onclick="b=this.innerHTML; w();">чем знаменит</a>, 
+						<a onclick="b=this.innerHTML; e();">награды</a><span id="pfg"></span>
+						<span id="m"><a onclick="r();" class="td">...</a></span>
+						<span id="m_txt"><a onclick="b=this.innerHTML; q();">когда родился</a>, <a onclick="b=this.innerHTML; q();">когда умер</a>, <a onclick="b=this.innerHTML; q();">где родился</a>, <a onclick="b=this.innerHTML; q();">кем работал</a>, <a onclick="b=this.innerHTML; q();">что окончил</a>, <a onclick="b=this.innerHTML; q();">биография</a>, <a onclick="b=this.innerHTML; w();">что внёс</a>, <a onclick="b=this.innerHTML; w();">что создал</a>, <a onclick="b=this.innerHTML; e();">какие получил ордена</a>, <a onclick="b=this.innerHTML; e();">какие получил медали</a>, <a onclick="b=this.innerHTML; e();">какое получил звание</a></span>
+						<script>n();</script>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Сайты</h2>
+					<ul>
+						<li class="selected"><a href="index.html">информация</a><span class="rating_sidebar">дата рождения...</span></li>
+						<li class="selected"><a href="#">чем знаменит</a><span class="rating_sidebar">что создал...</span></li>
+						<li class="selected"><a href="награды.html">награды</a><span class="rating_sidebar">как награждён</span></li>
+					</ul>
+				</div>
+				<div class="sidebar">
+					<h2>Новости</h2>
+					<span>30.04.2022</span>
+					<p>Сайт запущен</p>
+				</div>
+				<div class="sidebar">
+					<h2>О чём сайт</h2>
+					<span>сайт из <b title="информация, чем знаменит, награды">3 частей</b> о <b title="выдающейся земляк Чувашии">Иване Яковлевиче Яковлеве</b> Чувашком земляке</span>
+				</div>
+			</div>
+			<div class="content">
+				<h1 id="doc">Чем знаменит</h1>
+				<ul>
+					<li>Внёс <span class="b">большой вклад в развитие чувашской национальной письменности </span>и <span class="b">литературы</span>,</li>
+					<li>создал <span class="b">1 букварь </span>и <span class="b">школу</span>.</li>
+					<div class="perexod"><li><a href="информация.html"><</a> <a href="награды.html">></a></li></div>
+				</ul>
+			</div>
+		</div>
+			<div class="footer">
+				<p>
+					<a href="index.html">информация</a> |
+					<a href="чем знаменит.html">чем знаменит</a> |
+					<a href="#">награды</a>
+				</p>
+				<p>Кирилл Семёнов 2022</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
